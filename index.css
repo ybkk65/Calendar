@@ -256,3 +256,63 @@ input[type="submit"]:hover {
     text-decoration: underline;
     font-size: 15px;
 }
+
+#partager{
+    position: relative;
+    z-index: 2;
+    display: none;
+    background-color: #4f0164;
+    color: white;
+    height: 400px;
+
+} 
+
+.interior{
+    display: flex;
+    padding: 10px;
+}
+
+.interior i {
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+.interior h3 {
+    margin-top: -4px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+  .mois {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+  }
+
+  .jours {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+  }
+
+  .jour {
+    width: calc(100% / 6);
+    text-align: center;
+  }
+
+  #acceuil {
+    max-height: 600px; /* Hauteur maximale pour la section */
+    overflow-y: auto; /* Activer le défilement vertical si nécessaire */
+  }
+
+  .iconPlus{
+    padding:10px;
+    display: flex;
+    justify-content:end;
+  }
